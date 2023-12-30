@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: navy;
+    color:white;
+    padding: 0px;
+}
+.menuPri{
+    overflow: hidden;
+    background-color: #333;
+    
+}
+.menuPri a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.menuPri a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.menuPri a.active{
+    background-color: #04AA6d;
+    color: white;
+}
+.menuPri .icon{
+    display: none;
+}
+
+.titulo{
+    padding: 10px;
+    text-align: center;
+    
+}
+.subtitulo{
+    background-color:lightsteelblue;
+    padding: 10px;
+    margin: 2px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;    
+}
+main{
+    display: block;
+    background-color: white;
+  
+}
+section{
+    display: inline-block;
+    text-align: center;
+    width: 32.67%;
+    background-color: lightgrey;
+    padding: 1px;
+    border: 2px;
+    margin: 2px;
+}
+
+.imagen{
+    width: 350px;
+    height: 250px;
+}
+.caracteristicaPlaya{
+    text-align: justify;
+    padding: 3px;
+}
+footer{
+    background-color: cadetblue;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+}
+.redes{
+    overflow: hidden;
+    background-color: lightgrey;
+    text-align: right;
+}
+.redes a{
+    padding: 3px 5px;
+}
+.redes a:hover{
+    background-color: lightslategrey;
+    color: black;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+  background-color: #fff;
+}
+
+/*Estilos del menu*/
+.menuPrincipal{
+    width: 100%;
+    margin: 5px auto;
+    background-color: black;
+}
+.menuPrincipal{
+    list-style: none;
+}
+.menu >li{
+    position: relative;
+    display: inline-block;
+}
+.menu >li>a{
+    display: block;
+    padding: 15px 15px;
+    color: white;
+    text-decoration: none;
+}
+.menu >li a:hover{
+    color: aqua;
+}
+.submenu {
+    position: absolute;
+    list-style: none;
+    width: 90%;
+    display: none;
+}
+.submenu li a{
+    display: block;
+    padding: 8px;
+    background-color: lightslategray;
+    color: aliceblue;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+
+/*Estilos del titulo*/
+.titulo{
+    background-color: navy;
+    color:white;
+    padding: 10px;
+    text-align: center;
+}

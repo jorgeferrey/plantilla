@@ -1,0 +1,185 @@
+*{
+  margin: 0px; 
+  padding: 0px;
+  box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color:#7D0A0A;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+}
+.header__text p{
+    font-size: 50px;
+    font-family: Alex Brush, cursive;
+    color:white;
+    text-align: justify;
+    padding: 0px;
+    margin: 0px;
+}
+.header__menu{
+    font-size: 20px;
+    padding: 15px;
+}
+.header__menu a{
+    text-align: right;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.header__menu a:hover{
+    text-decoration: underline;
+}
+.contenedorredes{
+    display: flex;
+    justify-content:right;
+    width: 100%;
+    height: 50px;
+}
+.contenedorredes li{
+    list-style: none;
+    padding: 10px;
+   
+}
+.contenedorredes a{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align:center;
+    background-color: rgb(101, 81, 215);
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);  
+    transition: all .4s ease-in-out; 
+}
+.contenedorredes a:hover{
+    transform: scale(1.2);
+}
+.contenedorcentro{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+.tarjetaizquierda{
+    background-color: darkorange;
+    width: 395px;
+    height: 520px;
+    transition: box-shadow 0.3px ease-in-out;
+}
+.tarjetaizquierda:hover{
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+.parrafoizquierdo{
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+}
+.slider__frame{
+    width: 50%;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.slider__frame ul{
+    display: flex;
+    padding: 0px;
+    width: 700%;
+    animation: slide 16s infinite alternate ease-in-out;
+    
+}
+.slider__frame li{
+    list-style: none;
+    width: 100%;
+   
+}
+.slider__frame img{
+    width: 800px;
+    height: 520px;
+}
+
+@keyframes slide{
+    0% {margin-left: 0%;}
+    10% {margin-left: 0%;}
+
+    15% {margin-left: -100%;}
+    25% {margin-left: -100%;}
+
+    30% {margin-left: -200%;}
+    40% {margin-left: -200%;}
+
+    45% {margin-left: -300%;}
+    55% {margin-left: -300%;}
+
+    60% {margin-left: -400%;}
+    70% {margin-left: -400%;}
+
+    75% {margin-left: -500%;}
+    85% {margin-left: -500%;}
+
+    90% {margin-left: -600%;}
+    100% {margin-left: -600%;}
+
+}
+.tarjetaderecha{
+    background-color:white;
+    display: flex;
+    flex-direction:column;
+    width: 395px;
+    height: 520px;
+    transition: box-shadow 0.3px ease-in-out;
+}
+
+.tarjetaderechatop{
+    background-color: orange;
+    transition: box-shadow 0.3px ease-in-out;
+}
+.tarjetaderechatop:hover{
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+.parrafoderecho{
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+}
+.tarjetaderechabooton{
+    background-color: orange;
+    float: left;
+    height: 305px;
+    margin-top: 5px;
+    transition: box-shadow 0.3px ease-in-out;
+}
+.tarjetaderechabooton:hover{
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+.tarjetaderechabooton ul{
+    font-size: 17px;
+    padding-top: 0px;
+    padding-left: 65px;
+}
+.tarjetaderechabooton a{
+    text-decoration: none;
+    color: black;
+  
+}
+.tarjetaderechabooton li:hover{
+    text-decoration: underline;
+}
+.contenedorbootom{
+    width: 100%;
+    height: 75px;
+}
+footer{
+    width: 100%;
+    height: 20px;
+    background-color:rgb(97, 184, 97);
+    text-align: center;
+}

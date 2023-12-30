@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+@import "partials/header";
+.tituloPagina{
+    background-color: #176B87;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+}
+@import "partials/main";
+@import "partials/footer"

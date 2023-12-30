@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #04364A;
+}
+header nav {
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+header nav a {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  text-decoration: none;
+  padding: 10px;
+}
+header nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.tituloPagina {
+  background-color: #176B87;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  padding: 15px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .tarjetas {
+  width: 270px;
+  height: 600px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-top: 3px;
+  transition: box-shadow 0.3px ease-in-out;
+}
+main .tarjetas:hover {
+  box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+main .tarjetas img {
+  width: 100%;
+  height: fit-content;
+}
+
+footer {
+  background-color: #64CCC5;
+  padding: 5px;
+  margin: 10px;
+}
+footer nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+footer nav a {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  text-decoration: none;
+}
+footer nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
